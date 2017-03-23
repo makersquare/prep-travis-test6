@@ -27,8 +27,10 @@ describe("checkAge", function() {
   });
   it("should welcome a 21 year old", function() {
     expect(checkAge("Toni", "21")).toBe("Welcome, Toni!");
+    console.log(JSON.stringify(checkAge("Toni", "21")).toBe("Welcome, Toni!"));
   });
   it("should bounce someone under 21", function() {
     expect(checkAge("Rad", "4")).toBe("Go home, Rad!");
+    console.log(JSON.stringify(expect(checkAge("Rad", "4")).toBe("Go home, Rad!");));
   });
 });
