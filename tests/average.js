@@ -1,5 +1,8 @@
 // checkAverage
 
+console.log('-------- checkAverage tests --------')
+
+
 describe("average", function() {
   it("should return a number", function() {
     expect(typeof average(1, 12)).toBe("number");
