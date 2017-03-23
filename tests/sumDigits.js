@@ -5,7 +5,7 @@ describe("sumDigits", function() {
     expect(typeof sumDigits(2002)).toBe("number");
   });
   it("should sum the digits of a positive number", function() {
-    expect(sumDigits(2002)).toBe(4);
+    expect(sumDigits(2002)).toBe(8);
   });
   it("should sum the digits of a negative number", function() {
     expect(sumDigits(-2004)).toBe(2);
